@@ -33,8 +33,8 @@ a:hover {
 
 #welcome {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 1rem;
+  grid-template-rows: 100px 1fr 1fr;
+  /* grid-row-gap: 1rem; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,11 +42,18 @@ a:hover {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   text-align: center;
+  margin-top: 2rem;
+}
+
+.logo {
+  max-width: 100px;
+  place-self: center;
 }
 
 .huge {
   font-size: 6rem;
   color: #f8f9fa;
+  margin: 1.5rem;
 }
 
 .white {
