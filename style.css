@@ -50,6 +50,10 @@ a:hover {
   background-color: #464646;
 }
 
+.blogImg {
+  max-width: 100%;
+}
+
 #welcome {
   display: grid;
   grid-template-rows: 100px 1fr 1fr;
